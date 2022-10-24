@@ -35,7 +35,7 @@ h3 {
 .main-nav {
   display: flex;
 }
-.logo-blue {
+.logo-label {
   color: var(--accent-color);
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -43,7 +43,7 @@ h3 {
   line-height: 1.19;
   text-decoration: none;
 }
-.logo-black {
+.logo {
   color: #000000;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -431,8 +431,20 @@ h3 {
   margin: 0;
   padding: 0;
 }
-.fotter-logo {
+.logo-fotter {
+  display: inline-block;
+  margin: 0;
   margin-bottom: 20px;
+  color: #2196f3;
+}
+.contacts-nav__list {
+  list-style: none;
+}
+.contacts-nav__item {
+  margin-bottom: 9px;
+}
+.contacts-nav__item:last-child {
+  margin-bottom: 0;
 }
 .contacts-nav .link.text-footer {
   color: var(--white-color);
