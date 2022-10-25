@@ -29,8 +29,6 @@ h3 {
 }
 .header {
   background: #ffffff;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 .main-nav {
   display: flex;
@@ -74,6 +72,8 @@ h3 {
   margin-right: 0;
 }
 .site-nav .link {
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -99,6 +99,8 @@ h3 {
   align-items: center;
 }
 .contacts-nav .item {
+  padding-top: 32px;
+  padding-bottom: 32px;
   margin-right: 30px;
 }
 .contacts-nav .item:last-child {
@@ -148,6 +150,8 @@ h3 {
 } */
 
 .contacts-nav .link {
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -188,11 +192,14 @@ h3 {
   padding-bottom: 200px;
 }
 .hero-title {
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
   color: var(--white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
+
   text-transform: uppercase;
   margin-bottom: 30px;
 }
@@ -209,6 +216,11 @@ h3 {
   border: 0;
   padding: 10px 32px;
   margin: 0;
+}
+.button:hover,
+.button:focus {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 .section-features {
   background-color: #ffffff;
